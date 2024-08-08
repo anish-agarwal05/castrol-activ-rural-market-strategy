@@ -71,6 +71,23 @@ img {
     margin: 0 auto 15px;
 }
 
+.aida-section, .implementation-point, .impact-point {
+    margin-bottom: 30px;
+}
+
+.aida-section img, .implementation-point img, .impact-point img {
+    max-width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.aida-section p, .implementation-point p, .impact-point p {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 700px;
+}
+
 footer {
     background-color: #004d00;
     color: white;
